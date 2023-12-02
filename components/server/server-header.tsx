@@ -11,7 +11,7 @@ interface ServerHeaderProps {
     role?: MemberRole;
 }
 
-const ServerHeader = ({
+export const ServerHeader = ({
     server,
     role
 }: ServerHeaderProps) => {
@@ -99,5 +99,3 @@ const ServerHeader = ({
         </DropdownMenu>
     );
 }
- 
-export default ServerHeader;
